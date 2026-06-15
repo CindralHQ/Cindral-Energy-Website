@@ -417,9 +417,9 @@ export default function Home() {
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 md:pt-20 lg:pt-28">
             <div className="grid lg:grid-cols-12 gap-12 items-center">
               <div className="lg:col-span-8 flex flex-col gap-6 text-left">
-                <span className="inline-flex items-center gap-1.5 self-start px-3.5 py-1.5 text-xs font-bold uppercase tracking-wider text-brand-green-light bg-brand-green-light/20 border border-brand-green-light/30 rounded-md backdrop-blur-sm">
-                  <Sparkles className="h-3.5 w-3.5 text-brand-green-light" />
-                  Premium Clean Tech Specialists
+                <span className="inline-flex items-center gap-1.5 self-start px-3.5 py-1.5 text-xs font-bold uppercase tracking-wider text-white bg-brand-green-light/20 border border-brand-green-light/30 rounded-md backdrop-blur-sm">
+                  <Sparkles className="h-3.5 w-3.5 text-white" />
+                  Green Energy Specialists
                 </span>
                 
                 <h1 className="font-sans font-black tracking-tight text-white text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-[1.1] text-balance">
@@ -1283,7 +1283,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-8 pt-6 border-t border-brand-green-mid/20 text-center flex flex-col sm:flex-row items-center justify-between gap-4 text-[10px] text-brand-charcoal/60">
+          <div className="mt-8 pt-6 border-t border-brand-green-mid/20 text-center flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-brand-charcoal/60">
             <p>© {new Date().getFullYear()} Cindral Energy. All Rights Reserved.</p>
             <div className="flex gap-4">
               <span>*Prices are subject to final site-specific mechanical wind surveys and shadow mapping.</span>
