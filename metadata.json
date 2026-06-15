@@ -1,0 +1,6 @@
+{
+  "name": "Cindral Energy",
+  "description": "Sustainable solar, wind, and hybrid energy solutions for residential homes. Calculate your custom system size, labor costs, and government subsidies instantly.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
+  
+  --color-brand-green-light: #5CE02A;
+  --color-brand-green-mid: #2BB62F;
+  --color-brand-green-dark: #008744;
+  --color-brand-charcoal: #121814;
+  --color-brand-slate: #1E2922;
+  --color-brand-offwhite: #F8FAF7;
+}
+
+/* Glassmorphism and Custom styles if needed */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(43, 182, 47, 0.15);
+}
+
+.dark-glass-panel {
+  background: rgba(18, 24, 20, 0.95);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(92, 224, 42, 0.15);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, var(--color-brand-green-light), var(--color-brand-green-dark));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
