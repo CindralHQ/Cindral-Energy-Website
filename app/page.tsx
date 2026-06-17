@@ -72,17 +72,17 @@ const SOLAR_PACKAGES: SolarPackage[] = [
   {
     id: 'pack-1kw',
     kw: 1,
-    name: '1KW Basic Package',
-    subtitle: 'BASIC PACKAGE',
-    description: 'Perfect for small cabins, outhouses, and security quarters with low power loads.',
+    name: '1KW Package',
+    subtitle: 'COTTAGE',
+    description: 'Perfect for small cottages, outhouses, or quarters with low power loads.',
     supports: ['Lights', 'Fans', 'WiFi Router', 'CCTV Cameras', 'Small Appliances'],
     approxCostRange: '₹45K - ₹85K*',
   },
   {
     id: 'pack-3kw',
     kw: 3,
-    name: '3KW Farmhouse Package',
-    subtitle: 'FARMHOUSE PACKAGE',
+    name: '3KW Package',
+    subtitle: 'HOMESTEAD',
     description: 'Ideal setup for typical weekend homes, farmhouses, and standard cottages.',
     supports: ['1 Air Conditioner', 'Lights & Fans', 'Refrigerator', 'Smart TV & WiFi', 'Small Water Pump'],
     approxCostRange: '₹1.5L - ₹2.1L*',
@@ -90,27 +90,27 @@ const SOLAR_PACKAGES: SolarPackage[] = [
   {
     id: 'pack-5kw',
     kw: 5,
-    name: '5KW Premium Farmhouse',
-    subtitle: 'MOST POPULAR PACKAGE',
-    description: 'The sweet spot for active premium residences, farm villas, and luxury cottages.',
+    name: '5KW Package',
+    subtitle: 'RESIDENCE',
+    description: 'The sweet spot for active residences, farm villas, and luxury cottages.',
     supports: ['1-2 Air Conditioners', 'All Household Appliances', 'Water Pump', 'Kitchen Appliances', 'Outdoor Garden Lighting'],
     approxCostRange: '₹3.2L - ₹4.0L*',
   },
   {
     id: 'pack-8kw',
     kw: 8,
-    name: '8KW Villa & Resort Package',
-    subtitle: 'VILLA / RESORT PACKAGE',
-    description: 'Configured for high-load luxury villas, small farm rentals, and light commercial resorts.',
+    name: '8KW Package',
+    subtitle: 'VILLA',
+    description: 'Configured for high-load villas,farm rentals, and light commercial resorts.',
     supports: ['Multiple AC Units', 'Heavy Duty Appliances', 'Water Pump (1-2 HP)', 'Light Pool Filtration Pump', 'High Continuous Loads'],
     approxCostRange: '₹6.0L - ₹7.2L*',
   },
   {
     id: 'pack-10kw',
     kw: 10,
-    name: '10KW Commercial Package',
-    subtitle: 'COMMERCIAL PACKAGE',
-    description: 'Heavy duty energy harvesting for full boutique resorts, large villas, and agribusinesses.',
+    name: '10KW Package',
+    subtitle: 'COMMERCIAL',
+    description: 'Heavy duty energy harvesting for resorts, large villas, and agribusinesses.',
     supports: ['Multiple ACs & Geysers', 'Heavy Agriculture Machinery', 'Large Capacity Water Pumps', 'Commercial Kitchen & Refrigeration', 'Multi-zone High Consumption'],
     approxCostRange: '₹8.5L - ₹10.5L*',
   }
@@ -438,7 +438,7 @@ export default function Home() {
                     href="#price-calculator"
                     className="px-8 py-4 text-sm font-bold text-brand-charcoal bg-white hover:bg-brand-offwhite rounded-full shadow-lg shadow-white/10 transition-all inline-flex items-center gap-2 cursor-pointer"
                   >
-                    <span>Instant Sizing Calculator</span>
+                    <span>Pricing Calculator</span>
                     <Sliders className="h-4 w-4 text-brand-green-dark" />
                   </a>
                   
@@ -568,7 +568,7 @@ export default function Home() {
               <div className="flex gap-4">
                 <Sun className="h-6 w-6 text-brand-green-light shrink-0 mt-1" />
                 <div>
-                  <h4 className="font-extrabold text-white text-base">Government Subsidy Guaranteed*</h4>
+                  <h4 className="font-extrabold text-white text-base">Government Subsidy*</h4>
                   <p className="text-xs text-brand-offwhite/70 mt-1 leading-relaxed">
                     National Portal registration and subsidy application paperwork handled 100% by Cindral, 
                     applying actual MNRE scheme discounts directly.
