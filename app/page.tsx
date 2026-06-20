@@ -754,9 +754,7 @@ export default function Home() {
 
               {/* Sizing Example Panel from Flyer */}
               <div className="bg-white p-6 sm:p-8 rounded-3xl border border-brand-green-mid/20 relative shadow-xl">
-                <div className="absolute top-4 right-4 bg-[#008744] text-[8px] font-mono tracking-widest text-[#e6f4ea] px-2 py-0.5 rounded">
-                  FLYER SAMPLE SIZING
-                </div>
+
                 
                 <h4 className="text-lg font-black text-[#008744] uppercase tracking-wider mb-2">
                   5KW System Cost Analysis Example
