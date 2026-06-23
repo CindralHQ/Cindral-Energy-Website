@@ -400,8 +400,8 @@ export default function Home() {
               
               <nav className="hidden md:flex items-center gap-8 text-sm font-bold text-white/95">
                 <a href="#our-packages" className="hover:text-brand-green-light transition-colors drop-shadow-sm">Standard Packages</a>
-                <a href="#price-calculator" className="hover:text-brand-green-light transition-colors drop-shadow-sm">Custom Sizing Quote</a>
-                <a href="#subsidy-info" className="hover:text-brand-green-light transition-colors drop-shadow-sm">MNRE Subsidy Guide</a>
+                <a href="#price-calculator" className="hover:text-brand-green-light transition-colors drop-shadow-sm">Load Analyzer & Quotation</a>
+                <a href="#subsidy-info" className="hover:text-brand-green-light transition-colors drop-shadow-sm">Subsidy Info</a>
               </nav>
 
               <div className="flex items-center gap-3">
