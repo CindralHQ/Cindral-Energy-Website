@@ -340,7 +340,7 @@ export function LoadAnalyzer() {
                 </div>
                 <label className="flex items-center gap-1.5 text-[10px] cursor-pointer">
                   <input type="checkbox" checked={wantsSubsidy} onChange={e => {setWantsSubsidy(e.target.checked); if(e.target.checked) setOverridePanelId('');}} className="accent-[#008744]" />
-                  <span>MNRE Lock</span>
+                  <span>Government Subsidy</span>
                 </label>
               </div>
 
@@ -541,7 +541,7 @@ export function LoadAnalyzer() {
                   <div className="flex items-center justify-between mt-3 bg-orange-500/20 border border-orange-500/30 rounded-xl p-3">
                     <div className="flex flex-col">
                        <span className="text-[10px] uppercase font-bold tracking-wider text-orange-300/80">Total Storage Backup</span>
-                       <span className="text-sm font-black text-white mt-0.5">{recommendation.batteryQty} Cells = {(recommendation.batteryQty * recommendation.selectedBattery.capacityKwh).toFixed(2)} kWh Reserve</span>
+                       <span className="text-sm font-black text-white mt-0.5">{recommendation.batteryQty} Battery = {(recommendation.batteryQty * recommendation.selectedBattery.capacityKwh).toFixed(2)} kWh Reserve</span>
                     </div>
                     {recommendation.selectedBattery.details && (
                       <div className="group relative cursor-pointer ml-4">
